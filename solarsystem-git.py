@@ -41,18 +41,18 @@ class ring(planet):
          
 # scene reset period
 value_rate = 100
-
+million = 1000000
 # const_gravity
-const_gravity_mercury = -0.055*502950000000
-const_gravity_venus =  -0.815*31095000000
-const_gravity_earth = -1.000*26095000000
-const_gravity_mars = -0.1*260950000000
-const_gravity_jupiter = -0.1*270950000000
-const_gravity_saturn = -0.1*260950000000
-const_gravity_uranus = -0.1*260950000000
-const_gravity_neptune = -0.1*260950000000
-const_gravity_moon = -0.012*26095000000000000
-const_gravity_saturn_ring = -0.1*260950000000
+const_gravity_mercury = -0.055*502950*million
+const_gravity_venus =  -0.815*31095*million
+const_gravity_earth = -1.000*26095*million
+const_gravity_mars = -0.1*260950*million
+const_gravity_jupiter = -0.1*270950*million
+const_gravity_saturn = -0.1*260950*million
+const_gravity_uranus = -0.1*260950*million
+const_gravity_neptune = -0.1*260950*million
+const_gravity_moon = -0.012*26095*million*million
+const_gravity_saturn_ring = -0.1*260950*million
 
 # position variable
 const_pos = 1.5*(10**5)
